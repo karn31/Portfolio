@@ -1,0 +1,46 @@
+{
+    "projects":[{"Image":"assets/images/Tracker.png",
+                    "Date":"13 Feb 2022",
+                    "Title":"Period and Pregnecy Tracker",
+                    "Discp":"A Short info Relalted to Gold Digger",
+                    "BadgeName":[],
+                    "BadgeUrl":[],
+                    "Paragraph":"here is long Paragraph"
+                },
+                {"Image":"assets/images/Lane3d.jpg",
+                "Date":"27 Aug 2022",
+                "Title":"Lane3D Game",
+                "Discp":"A Short info Relalted to Lane3D",
+                "BadgeName":["Playstore","instagram"],
+                "BadgeUrl":["https://play.google.com/store/apps/details?id=com.Game.Lane3D&pcampaignid=web_share","https://www.instagram.com/reel/C5WRYrvovWZ/?utm_source=ig_web_copy_link"],
+                "Paragraph":"here is long Paragraph"
+            },
+            {"Image":"assets/images/Blast.jpg",
+            "Date":"7 Jan 2023",
+            "Title":"Blast Game",
+            "Discp":"Blast game",
+            "BadgeName":["Playstore"],
+            "BadgeUrl":["https://play.google.com/store/apps/details?id=com.karngames.blast&pcampaignid=web_share"],
+            "Paragraph":"here is long Paragraph"
+        }
+,
+            {"Image":"assets/images/GAN.jpg",
+            "Date":"19 May 2023",
+            "Title":"GAN Anime",
+            "Discp":"A Generative Adversarial Network (GAN) is a type of machine learning model where two neural networks, a generator and a discriminator, compete against each other. The generator creates fake data, while the discriminator tries to distinguish between real and fake data. Over time, this adversarial process helps the generator produce increasingly realistic data, making GANs powerful tools for generating high-quality images, text, and other media.",
+            "BadgeName":[],
+            "BadgeUrl":[],
+            "Paragraph":"Image Generative Adversarial Networks (Image GANs) are a specialized form of GANs designed specifically for generating and manipulating images. Here’s a concise overview: \n# Components Generator: \n\tThis neural network creates synthetic images from random noise or structured input (like a class label). Its goal is to produce images that are visually indistinguishable from real ones.\n#Discriminator:\n\t This neural network evaluates images to determine whether they are real (from the training set) or fake (produced by the generator). It provides feedback to the generator to improve its outputs.\n\n#Process :\n\tTraining: The generator and discriminator are trained simultaneously in a zero-sum game. The generator improves by trying to fool the discriminator, while the discriminator improves by getting better at detecting fakes.\n# Objective:\n\tThe generator aims to minimize the difference between generated images and real images, while the discriminator aims to maximize its ability to correctly classify real and fake images."
+        }
+        , {"Image":"assets/images/Hexapod.jpg",
+        "Date":"23 Dec 2023",
+        "Title":"IK RObotics Movement",
+        "Discp":"IK Robotics refers to *Inverse Kinematics* in robotics, which is a mathematical process used to determine the joint angles or positions required to place a robotic arm's end-effector (like a gripper or tool) at a desired location in space. It involves solving equations that map from the desired position of the end-effector to the corresponding joint configurations, allowing for precise control and movement of robotic arms and manipulators.",
+        "BadgeName":[],
+        "BadgeUrl":[],
+        "Paragraph":"What is Inverse Kinematics (IK)?\n\n\tInverse Kinematics is the process of determining the joint angles or positions needed for a robotic arm to achieve a specific end-effector position and orientation. It essentially involves solving mathematical equations to reverse-engineer the desired outcome.\n\n # Key Components\n\tEnd-Effector: The tool or part of the robot that interacts with the environment, such as a gripper or welding torch.\nJoint Variables: The angles or positions of the robot’s joints that need to be calculated.\nRobot Arm Configuration: The physical setup and degrees of freedom (DOF) of the robotic arm, which affects the IK solution.\n\tProcess:\nDefine the Goal: Specify the desired position and orientation of the end-effector.\nSolve IK Equations: Use geometric or analytical methods to calculate the joint configurations needed to achieve the goal.\nCheck for Validity: Ensure the calculated joint angles are within the robot’s operational limits and do not cause collisions."
+        
+    }
+    ]
+   
+}
